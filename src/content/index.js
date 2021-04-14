@@ -1,6 +1,6 @@
 export default {
   nav: {
-    logo: 'Panda',
+    logo: 'Paanda',
     links: [
       { text: 'Work', to: 'mywork' },
       { text: 'Contact', to: 'mycontact' },

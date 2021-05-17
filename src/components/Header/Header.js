@@ -1,7 +1,7 @@
 import React from "react";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css'; 
-import Typical from 'react-typical'
+import Typical from 'react-typical';
 import content from "../../content";
 
 export default function Header() {
@@ -12,8 +12,8 @@ export default function Header() {
         background: "#091c29",
       }}
     >
-      <div className="flex flex-col md:flex-row-reverse items-center justify-between">
-        <div className="w-full md:w-2/5">
+      <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
+        <div className="w-full md:w-2/4">
             <LazyLoadImage
             src={content.header.img}  effect="blur" placeholderSrc={process.env.PUBLIC_URL + '/logo512.png'} />
         </div>

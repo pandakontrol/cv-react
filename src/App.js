@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation/Navigation'
 import Header from './components/Header/Header'
+import Stack from './components/Stack/Stack'
 import './tailwind.output.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navigation />
       <Header />
+      <Stack />
     </div>
   )
 }

@@ -1,6 +1,8 @@
+import React from 'react';
 import Navigation from './components/Navigation/Navigation'
 import Header from './components/Header/Header'
 import Stack from './components/Stack/Stack'
+import Slider from './components/Slider/Slider'
 import './tailwind.output.css'
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
       <Navigation />
       <Header />
       <Stack />
+      <Slider />
     </div>
   )
 }

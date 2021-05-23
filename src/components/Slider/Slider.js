@@ -6,7 +6,15 @@ import content from "../../content";
 export default class Slider extends Component {
     render() {
         return (
-            <div>
+            
+
+
+            <div className="min-h-screen flex flex-col items-center justify-center font-dosis" style={{
+                background: "#091c29",
+              }}
+            >
+
+            <h1 className="text-5xl font-bold text-white">Projects</h1>
                 <Carousel cols={3} row={1} gap={10} loop >
         <Carousel.Item>
         {
@@ -16,7 +24,7 @@ export default class Slider extends Component {
         </Carousel.Item>
         <Carousel.Item>
         {
-            <img alt="" src={content.header.img} />
+            <img alt="" src={content.carousel.img} />
 
         }
         </Carousel.Item>
